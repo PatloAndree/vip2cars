@@ -7,7 +7,7 @@ use App\Http\Controllers\Panel\VehicleController;
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
 
 
